@@ -25,6 +25,8 @@ you should navigate to lab13 before running these commands
 
 1>>     docker buildx build --load -t lab13:latest .
 
+the dot is necessary at the end of the command as this tells to search in the current dir
+
 'buildx' build supports multi-platform builds 
 but 
 '--load' tells Docker to load it into your local Docker engine like a normal build.
